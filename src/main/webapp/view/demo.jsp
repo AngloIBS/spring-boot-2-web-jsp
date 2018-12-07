@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="utf-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,5 +7,12 @@
 </head>
 <body>
 <p>Demo SB Page - ${myparam}</p>
+<%
+    for (int i = 0; i < 10; i++) {
+%>
+test<br>
+<%
+    }
+%>
 </body>
 </html>
